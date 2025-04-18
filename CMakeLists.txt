@@ -7,6 +7,7 @@ add_executable (my_app
 
 add_executable (my_app2 
   my_app2.cc)
+  
 
 target_link_libraries (my_app
   Seastar::seastar)
